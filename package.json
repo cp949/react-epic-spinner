@@ -1,6 +1,6 @@
 {
   "name": "@cp949/react-epic-spinner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-epic-spinner for mui5",
   "main": "build/cjs/index.js",
   "module": "build/es/index.js",
