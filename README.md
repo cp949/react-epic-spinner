@@ -4,3 +4,9 @@
 - use typescript
 - emotion
 - use @mui/material theme
+
+## Install
+
+```bash
+npm install @cp949/react-epic-spinner
+```

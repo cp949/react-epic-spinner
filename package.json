@@ -9,7 +9,7 @@
     "build:es": "rimraf build && rollup -c rollup.config.es.js",
     "build:cjs": "rimraf build && rollup -c rollup.config.cjs.js",
     "clean": "rimraf build dist",
-    "dist": "rimraf dist && mkdirp dist && yarn build && cp -rf build/cjs/* dist/ && node scripts/dist-package-json",
+    "dist": "rimraf dist && mkdirp dist && yarn build && node scripts/dist-package-json",
     "lint": "eslint --fix \"src/**\" ",
     "fmt": "prettier --write \"src/**\" "
   },
@@ -47,6 +47,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.39.0",
     "rollup-plugin-typescript2": "^0.31.2",
+    "shelljs": "^0.8.5",
     "ts-loader": "^8.0.17",
     "tslib": "^2.1.0",
     "typescript": "4.3.5"
